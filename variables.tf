@@ -8,3 +8,8 @@ variable "git-repo" {
   default = ["git-repo-dev", "git-repo-ppd", "git-repo-prod"]
 }
 
+variable "gittocken" {
+  type = string
+  default =""
+}
+

@@ -10,8 +10,9 @@ terraform {
 
 provider "github" {
   # Configuration options
-  #token = "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"
-  token = "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"
+  #token = "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"
+  token = var.gittocken
+  #token = file("../git-pass.txt")
 }
 
 resource "github_repository" "example" {
