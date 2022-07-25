@@ -11,7 +11,7 @@ terraform {
 provider "github" {
   # Configuration options
   #token = "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"
-  token = "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"
+  token = "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"
 }
 
 resource "github_repository" "example" {
